@@ -1,0 +1,25 @@
+{
+  "name": "opencodev2-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that runs a supervised panel of pinned-model OpenCode v2 agents (opencodev2-panel)",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "@opencode/plugin": "^2.1.2",
+    "@opencode/sdk": "^2.1.2",
+    "zod": "^4.6.7"
+  }
+}
